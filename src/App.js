@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-
+<html>
+<head>
+<meta charset=”utf-8″>
 
 <section class="stream-sec" id="home" style="box-shadow: -2px 6px 98px -6px rgba(0,0,0,0.75); background: url(../img/bg-01.jpg) no-repeat;  background-size: cover;">
   <br>
@@ -19,3 +15,6 @@
       
     </div>
   </div>
+
+</body>
+</html>
