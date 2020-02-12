@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
 
-export default App;
+
+<section class="stream-sec" id="home" style="box-shadow: -2px 6px 98px -6px rgba(0,0,0,0.75); background: url(../img/bg-01.jpg) no-repeat;  background-size: cover;">
+  <br>
+  <br>
+  <br>
+  <div class="container form-block">
+    <div id="myDIV" class="row" style="box-shadow: -2px 6px 98px -6px rgba(0,0,0,0.75); border:5px solid #008ae6; border-radius: 9px 9px 9px 9px">
+    	
+      <div class='embed-container  col-md-9 col-lg-9 content-sec'><iframe src='https://player.twitch.tv/?channel=renrize' height='720' width='1280' frameborder='0' scrolling='no' allowfullscreen='true'></iframe></div> <div class='embed-containerchat  col-md-3 col-lg-3 content-sec'> <iframe style='' frameborder='0' scrolling='no' id='chat_embed' src='https://www.twitch.tv/embed/renrize/chat' height='720' width='290'> </iframe> </div> <div class="hidden-xs"><button class='btn btn-primary' style='position: absolute; right: 9px; top: 9px;'onclick='myFunction()'>OCULTAR CHAT</button></div>
+      
+    </div>
+  </div>
